@@ -1,15 +1,3 @@
-
-/**
- * Add two strings and return the value as strings
- * Example: add('123', '2') -> '125'
- */
-
-function add(a,b){
-  var result = parseInt(a)+parseInt(b);
-  return result.toString();
-}
-console.log(add('123','2'))
-
 /**
  * Find a word in array of strings, it is safe to assume the array contains only words
  * and no special characters.

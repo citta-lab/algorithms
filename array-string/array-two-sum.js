@@ -1,27 +1,29 @@
 /**
- * If the array is [2,4,11,14] and target is 13 then we should resturn
- * array of those two indexes i.e [ 0,2]
- */
-
-/**
+ * Question: Find the index of two element which add up to the target value sum.
+ * Example: if array [4,2,5,7] and target is 6 then return index [0,1] as 4+2 = 6
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
+ var twoSum = function(nums, target) {
+     let result = [];
+     for(let i=0; i<nums.length; i++){
 
-    var result = [];
-    for(let i=0; i<nums.length; i++){
-        for(let j=i+1; j<nums.length; j++){
-            if(nums[i]+nums[j] === target){
-               result.push(i);
-               result.push(j);
-            }
-        }
-    }
+         let checkNum = target - nums[i];
+         for(let j=i+1; j < nums.length; j++){
+             if(checkNum === nums[j]){
+                 result.push(i);
+                 result.push(j)
+             }
+         }
+     }
 
-    return result;
-};
+     return result;
+ }
+
+
+ let test = twoSum([2, 7, 11, 15], 9);
+ console.log(JSON.stringify(test))
 
 /**
  * Each forloop to traverse through the array it takes O(n) complexity, hence we are making two
