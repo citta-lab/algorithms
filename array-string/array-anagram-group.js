@@ -14,6 +14,14 @@ var groupAnagrams = function(strs) {
      * 3. if map doesn't have this key, store it as sorted word as key, and actual word as value.
      * 4. if it's present use spread operator to update the present key values.
      * 5. return just the values using Object.values(object) i.e it returns array
+     * EXAMPLE:
+     Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
+     Output:
+          [
+          ["ate","eat","tea"],
+          ["nat","tan"],
+          ["bat"]
+          ]
      */
     var map = {};
     for(let word of strs){
