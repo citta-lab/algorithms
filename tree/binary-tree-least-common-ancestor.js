@@ -6,6 +6,7 @@
  * Hint: this is not a binary search tree and hence the left and right is not sorted. The given p and/or q might 
  * be either side of the root node. Important logic here is, let's start matching p value to one side of the root node,
  * if we find the match then return the `ROOT` itself, if we didn't then return null. Use this to check for all nodes.
+ * Explanation: https://www.youtube.com/watch?v=F-_1sbnPbWQ
  */
 
 
