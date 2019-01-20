@@ -8,7 +8,7 @@
  * 4. Binary tree on the other hand exludes above condition
  */
 
- class Node(data){
+ class Node{
    constructor(data){
      this.data = data;
      this.left = null;

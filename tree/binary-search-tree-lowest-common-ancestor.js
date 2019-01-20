@@ -30,6 +30,29 @@ var lowestCommonAncestor = function(root, p, q) {
     }else if(root.val < p.val && root.val < q.val){
         return lowestCommonAncestor(root.right, p, q);
     }else{
-        return root;
+        return root.val;
     }
 }
+
+
+
+
+/**
+ * TESTING SECTION
+ */
+let valid = new TreeNode(6);
+valid.insert(2);
+valid.insert(8);
+valid.insert(0);
+valid.insert(4);
+valid.insert(7);
+valid.insert(9);
+valid.insert(null);
+valid.insert(null);
+valid.insert(3);
+valid.insert(5);
+
+let resultOne = lowestCommonAncestor(valid, 2, 4); // should print 2
+let resultTwo = lowestCommonAncestor(valid, 2, 8);  // should print 6
+console.log(" 1. resultOne should be 2 : "+resultOne);
+console.log(" 2. resultTwo should be 6 : "+resultTwo);
