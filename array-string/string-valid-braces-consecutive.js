@@ -1,4 +1,10 @@
 /**
+ * Question: Check for valid consecutive paranthesis. 
+ * every opening braces should have immediate closing braces. 
+ * Example: '{{[}]}` is not valid. '{}[]` is valid.
+ */
+
+/**
  * @param {string} s
  * @return {boolean}
  */
