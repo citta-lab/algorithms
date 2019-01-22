@@ -33,5 +33,5 @@
 
 let test = longestSubString("ABAZDC", "BACBAD");
 //let test = LCS("ABCZ", "DBZ");
-//  let test = lcs("AGGTAB", "GXTXAYB");
-console.log(test)
+//let test = lcs("AGGTAB", "GXTXAYB");
+console.log(test);

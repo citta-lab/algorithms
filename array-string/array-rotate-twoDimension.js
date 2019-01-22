@@ -14,6 +14,7 @@ var matrix = [["a", "a", "a", "a"],
 ["c", "c", "c", "c"],
 ["d", "d", "d", "d"]];
 
+var matrixTwo = [[1,1,1],[1,0,1],[1,1,1]] 
 
-let test = rotate(matrix);
+let test = rotate(matrixTwo);
 console.log(JSON.stringify(test))
