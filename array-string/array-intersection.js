@@ -28,5 +28,7 @@ var intersect = function(nums1, nums2) {
  };
 
 
- let test = intersect([4,9,5],[9,4,9,8,4]);
+ //let test = intersect([4,9,5],[9,4,9,8,4]);  //[9,4] is the answer
+ let test = intersect([3,4,5,6,7],[1,2,3,4,1,2,6,8,9,7]) //[3,4,6,7] is the answer
+ 
  console.log(test)

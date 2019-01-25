@@ -17,7 +17,8 @@ var longestCommonPrefix = function(strs) {
 };
 
 //let test = longestCommonPrefix(["flower","flowk","flow","flx"]);
-let test = longestCommonPrefix(["c","acc","ccc"]);
+//let test = longestCommonPrefix(["c","acc","ccc"]);
+let test = longestCommonPrefix(['b','abb','bbb']);
 console.log(test)
 
 
