@@ -1,4 +1,6 @@
 /**
+ * Question: Find the longest palindrome substring.
+ * Example: If the string is `cbbd` then `bb` is the longest substring.
  * @param {string} s
  * @return {string}
  */

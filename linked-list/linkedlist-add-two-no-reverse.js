@@ -1,4 +1,11 @@
 /**
+ * Question: Add two linked list which are in reverse order then return the result in reverse order linkedlist.
+ * Example: 9->3->4 and 1->0->5 would be 439+501 = 990 and the result is 0->9->9
+ */
+
+
+
+/**
  * Definition for singly-linked list.
  * function ListNode(val) {
  *     this.val = val;
