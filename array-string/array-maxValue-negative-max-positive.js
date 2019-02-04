@@ -2,6 +2,8 @@
 /**
  * Question: maximum value of 2 elements in an array of numbers both positive and negative.
  * @param {*} array 
+ * Example: [3,5,0,9,-1,23,0,-9,10,-7] we should get 23 as max for positive value and -9 as 
+ * maxium among negative
  */
 let maxValue = function(array){
     let positive ={};

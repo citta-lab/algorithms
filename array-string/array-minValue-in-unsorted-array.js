@@ -25,7 +25,8 @@ var findMin = function(nums) {
 findMin([4,5,6,7,0,1,2])
 
 /**
- * ES6 Syntax
+ * Solution : Second
+ * OR ES6 Syntax
  */
 var findMin = function(nums) {
     return nums.reduce((a,b) => {
