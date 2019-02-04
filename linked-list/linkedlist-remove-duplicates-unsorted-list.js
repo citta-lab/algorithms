@@ -3,6 +3,9 @@
  * Example: 3-2-4-5-2-6-7 should be altered to 3-2-4-5-6-7
  * 
  * Hint: Use hash instead of an array to avoid looping.
+ * 
+ * Make use of [linkedlist-insert-data](https://github.com/citta-lab/algorithms/blob/master/linked-list/linkedlist-insert-data.js) for
+ * ibserting easily for linkedList testing.
  */
 
 let removeDuplicatesFromUnsorted = function(root){

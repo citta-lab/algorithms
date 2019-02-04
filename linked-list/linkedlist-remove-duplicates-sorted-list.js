@@ -4,6 +4,9 @@
  * RealTime linkedList Data: {"head":{"data":3,"next":{"data":3,"next":
  * {"data":4,"next":{"data":5,"next":{"data":5,"next":{"data":6,"next"
  * :{"data":7,"next":null}}}}}}}}
+ * 
+ * Make use of [linkedlist-insert-data](https://github.com/citta-lab/algorithms/blob/master/linked-list/linkedlist-insert-data.js) for
+ * ibserting easily for linkedList testing.
  */
 
 
