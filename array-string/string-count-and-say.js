@@ -31,4 +31,4 @@ var countAndSay = function(n) {
 
 
 let test = countAndSay(5);
-console.log(test)
+console.log(test)// will result in 111221
